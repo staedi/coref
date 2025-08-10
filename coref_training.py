@@ -42,7 +42,7 @@ def run_mlx_training(config_path: str = "training_configs.yml"):
         print(f"Training failed with error: {e}")
         success = False
 
-    return configs, status
+    return configs, success
 
 
 def test_trained_model(model_name:str="meta-llama/llama-3.2-3B-Instruct", adapter_path:str="adapters"):
