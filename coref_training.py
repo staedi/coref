@@ -145,6 +145,9 @@ def main():
     args = parser.parse_args()
     
     print("Resolving coreferences...")
+    '''
+
+    inference_code += '''
     print(f"Input: {args.text}")
     
     try:
