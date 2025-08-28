@@ -199,7 +199,7 @@ def main():
         print(f"✓ Adapter saved to: {configs['adapter_path']}")
         print("\nUsage examples:")
         print(f'[uv run] python inference_coreference.py --text "Apple announced its earnings. The company performed well."')
-        print(f'[uv run] python -m mlx_lm.generate --model {configs['model']} --adapter-path {configs['adapter_path']} --prompt "{prompt} Apple announced its earnings. The company performed well."')
+        print(f'[uv run] python -m mlx_lm.generate --model {configs["model"]} --adapter-path {configs["adapter_path"]} --prompt "{prompt} Apple announced its earnings. The company performed well."')
         
     else:
         print("\n✗ Training failed. Check the error messages above.")
